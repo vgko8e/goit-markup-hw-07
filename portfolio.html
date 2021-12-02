@@ -21,23 +21,23 @@
     <!--шапка сайта (навигация, контакты)-->
     <header class="page-header">
         <!-- Навигация на другие страницы -->
-            <div class="container">
-            <nav class="site-main-nav">
-            <a href="index.html" class="logo" lang="en"> <span class="logo-begin">Web</span><span class="logo-end">Studio</span>
+        <div class="container">
+            <nav class="site-main">
+            <a href="index.html" class="logo" lang="en">Web<span class="logo-end">Studio</span>
             </a>
             
-                <ul class="site-nav list">
-                    <li class="item"> <a href="./index.html" class="link">Студия</a></li>
-                    <li class="item"> <a href="./portfolio.html" class="link current">Портфолио</a></li>
-                    <li class="item"> <a href="" class="link" >Контакты</a></li>
+                <ul class="site-nav__list list">
+                    <li class="site-nav__item"> <a href="./index.html" class="site-nav__link site-nav__link--current">Студия</a></li>
+                    <li class="site-nav__item"> <a href="./portfolio.html" class="site-nav__link">Портфолио</a></li>
+                    <li class="site-nav__item"> <a href="" class="site-nav__link" >Контакты</a></li>
                 </ul>
              
         <!--Контакты-->
-                <ul class="contacts-nav list list" >
-                    <li class="item"> <a href="mailto:info@devstudio.com" class="contacts-link"><svg width="16px" height="20px" class="item-icon">
+                <ul class="contacts-nav__list list" >
+                    <li class="contacts-nav__item"> <a href="mailto:info@devstudio.com" class="contacts-nav__link"><svg width="16px" height="20px" class="contacts-nav__icon">
                         <use href="./images/icons.svg#icon-envelope-1"></use></svg>info@devstudio.com</a>
                     </li>
-                    <li class="item"> <a href="tel:+380961111111" class="contacts-link"><svg width="16px" height="20px" class="item-icon">
+                    <li class="contacts-nav__item"> <a href="tel:+380961111111" class="contacts-nav__link"><svg width="16px" height="20px" class="contacts-nav__icon">
                         <use href="./images/icons.svg#icon-smartphone-1" ></use></svg> +38 096 111 11 11</a>
                     </li>
                 </ul> 
@@ -51,130 +51,130 @@
             <h2 class="filter"> Фильтры </h2>
             <div class="container">
                 <ul class="filter-list list">
-                    <li class="item">
-                        <button class="filter-btn" type="button"> Все </button>
+                    <li class="filter-list__item">
+                        <button class="filter-list__btn" type="button"> Все </button>
                     </li>
-                    <li class="item">
-                        <button class="filter-btn" type="button"> Веб-сайты </button>
+                    <li class="filter-list__item">
+                        <button class="filter-list__btn" type="button"> Веб-сайты </button>
                     </li>
-                    <li class="item">
-                        <button class="filter-btn" type="button"> Приложения </button>
+                    <li class="filter-list__item">
+                        <button class="filter-list__btn" type="button"> Приложения </button>
                     </li>
-                    <li class="item">
-                        <button class="filter-btn" type="button"> Дизайн </button>
+                    <li class="filter-list__item">
+                        <button class="filter-list__btn" type="button"> Дизайн </button>
                     </li>
-                    <li class="item">
-                        <button class="filter-btn" type="button"> Маркетинг </button>
+                    <li class="filter-list__item">
+                        <button class="filter-list__btn" type="button"> Маркетинг </button>
                     </li>
                 </ul>
-                
+<!--Предложения-->                
                 <h2 class="proposal"> Предложения</h2>
                 <ul class="proposal-list list">
-                    <li class="proposal-item">
-                        <a class="proposal-link" href=""> 
+                    <li class="proposal-list__item">
+                        <a class="proposal-list__link" href=""> 
                             <div class="proposal-action">
                             <img src="./images/port.img.jpg" alt="ноутбук" width="370" height="294">
-                            <p class="action-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
+                            <p class="proposal-action__text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                             </div>
-                            <div class="card-title">
-                                <h3 class="proposal-title" >Технокряк</h3>
-                                <p class="proposal-text" >Веб-сайт</p>
+                            <div class="proposal-card">
+                                <h3 class="proposal-card__title" >Технокряк</h3>
+                                <p class="proposal-card__text" >Веб-сайт</p>
                             </div>
                         </a>    
                     </li>
-                    <li class="proposal-item">
-                        <a class="proposal-link" href=""> 
+                    <li class="proposal-list__item">
+                        <a class="proposal-list__link" href=""> 
                             <div class="proposal-action">
                                 <img src="./images/port.img1.jpg" alt="два баскетболиста" width="370" height="294">
-                                <p class="action-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
+                                <p class="proposal-action__text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                             </div>
-                            <div class="card-title">
-                                <h3 class="proposal-title" >Постер New Orlean vs Golden Star</h3>
-                                <p class="proposal-text" >Дизайн</p>
+                            <div class="proposal-card">
+                                <h3 class="proposal-card__title" >Постер New Orlean vs Golden Star</h3>
+                                <p class="proposal-card__text" >Дизайн</p>
                             </div>
                         </a>
                     </li>
-                    <li class="proposal-item">
-                        <a class="proposal-link" href=""> 
+                    <li class="proposal-list__item">
+                        <a class="proposal-list__link" href=""> 
                             <div class="proposal-action">
                                 <img src="./images/port.img2.jpg" alt="название ресторана" width="370" height="294">
-                                <p class="action-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
+                                <p class="proposal-action__text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                             </div>
-                            <div class="card-title">
-                                <h3 class="proposal-title" >Ресторан Seafood</h3>
-                                <p class="proposal-text" >Приложение</p>
+                            <div class="proposal-card">
+                                <h3 class="proposal-card__title" >Ресторан Seafood</h3>
+                                <p class="proposal-card__text" >Приложение</p>
                             </div>
                         </a>
                     </li>
-                    <li class="proposal-item">
-                        <a class="proposal-link" href=""> 
+                    <li class="proposal-list__item">
+                        <a class="proposal-list__link" href=""> 
                             <div class="proposal-action">
                                 <img src="./images/port.img3.jpg" alt="наушники" width="370" height="294">
-                                <p class="action-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
+                                <p class="proposal-action__text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                             </div>
-                            <div class="card-title">
-                                <h3 class="proposal-title" >Проект Prime</h3>
-                                <p class="proposal-text" >Маркетинг</p>
+                            <div class="proposal-card">
+                                <h3 class="proposal-card__title" >Проект Prime</h3>
+                                <p class="proposal-card__text" >Маркетинг</p>
                             </div>
                         </a>
                     </li>
-                    <li class="proposal-item">
-                        <a class="proposal-link" href=""> 
+                    <li class="proposal-list__item">
+                        <a class="proposal-list__link" href=""> 
                             <div class="proposal-action">
                                 <img src="./images/port.img4.jpg" alt="две коробки" width="370" height="294">
-                                <p class="action-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
+                                <p class="proposal-action__text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                             </div>
-                            <div class="card-title">
-                                <h3 class="proposal-title" >Проект Boxes</h3>
-                                <p class="proposal-text" >Приложение</p>
+                            <div class="proposal-card">
+                                <h3 class="proposal-card__title" >Проект Boxes</h3>
+                                <p class="proposal-card__text" >Приложение</p>
                             </div>
                         </a>
                     </li>
-                    <li class="proposal-item">
-                        <a class="proposal-link" href=""> 
+                    <li class="proposal-list__item">
+                        <a class="proposal-list__link" href=""> 
                             <div class="proposal-action">
                                 <img src="./images/port.img5.jpg" alt="монитор" width="370" height="294">
-                                <p class="action-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
+                                <p class="proposal-action__text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                             </div>
-                            <div class="card-title">
-                                <h3 class="proposal-title" >Inspiration has no Borders</h3>
-                                <p class="proposal-text" >Веб-сайт</p>
+                            <div class="proposal-card">
+                                <h3 class="proposal-card__title" >Inspiration has no Borders</h3>
+                                <p class="proposal-card__text" >Веб-сайт</p>
                             </div>
                         </a>
                     </li>
-                    <li class="proposal-item">
-                        <a class="proposal-link" href=""> 
+                    <li class="proposal-list__item">
+                        <a class="proposal-list__link" href=""> 
                             <div class="proposal-action">
                                 <img src="./images/port.img6.jpg" alt="открытая книга" width="370" height="294">
-                                <p class="action-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
+                                <p class="proposal-action__text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                             </div>
-                            <div class="card-title">
-                                <h3 class="proposal-title" >Издание Limited Edition</h3>
-                                <p class="proposal-text" >Дизайн</p>
+                            <div class="proposal-card">
+                                <h3 class="proposal-card__title" >Издание Limited Edition</h3>
+                                <p class="proposal-card__text" >Дизайн</p>
                             </div>
                         </a>
                     </li>
-                    <li class="proposal-item">
-                        <a class="proposal-link" href=""> 
+                    <li class="proposal-list__item">
+                        <a class="proposal-list__link" href=""> 
                             <div class="proposal-action">
                                 <img src="./images/port.img7.jpg" alt="ярлык" width="370" height="294">
-                                <p class="action-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
+                                <p class="proposal-action__text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                         </div>
-                            <div class="card-title">
-                                <h3 class="proposal-title" >Проект LAB</h3>
-                                <p class="proposal-text" >Маркетинг</p>
+                            <div class="proposal-card">
+                                <h3 class="proposal-card__title" >Проект LAB</h3>
+                                <p class="proposal-card__text" >Маркетинг</p>
                             </div>
                         </a>
                     </li>
-                    <li class="proposal-item">
-                        <a class="proposal-link" href=""> 
+                    <li class="proposal-list__item">
+                        <a class="proposal-list__link" href=""> 
                             <div class="proposal-action">
                                 <img src="./images/port.img8.jpg" alt="человек печатает на ноутбуке" width="370" height="294">
-                                <p class="action-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
+                                <p class="proposal-action__text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                         </div>
-                            <div class="card-title">
-                                <h3 class="proposal-title" >Growing Business</h3>
-                                <p class="proposal-text" >Приложение</p>
+                            <div class="proposal-card">
+                                <h3 class="proposal-card__title" >Growing Business</h3>
+                                <p class="proposal-card__text" >Приложение</p>
                             </div>
                         </a>
                     </li>
