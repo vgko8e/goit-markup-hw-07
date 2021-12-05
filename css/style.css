@@ -73,7 +73,7 @@ img {
 
 /* шапка */
 .page-header {
-border-bottom: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 
 /* навигация сайта */
@@ -109,11 +109,11 @@ border-bottom: 1px solid #ececec;
   margin-left: 93px;
 }
 
-.site-nav__list .site-nav__item:not(:last-child) {
+.site-nav__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.site-nav__list .site-nav__item {
+.site-nav__item {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -133,14 +133,14 @@ border-bottom: 1px solid #ececec;
   color: var(--accent-color);
 }
 
-.site-nav__list .site-nav__link {
+.site-nav__link {
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.site-nav__list .site-nav__link:hover,
-.site-nav__list .site-nav__link:focus {
+.site-nav__link:hover,
+.site-nav__link:focus {
   color: var(--accent-color);
 }
 
@@ -150,11 +150,11 @@ border-bottom: 1px solid #ececec;
   margin-left: auto;
 }
 
-.contacts-nav__list .contacts-nav__item:not(:last-child) {
+.contacts-nav__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.contacts-nav__list .contacts-nav__item {
+.contacts-nav__item {
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -337,7 +337,7 @@ border-bottom: 1px solid #ececec;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
-.modal-form__data .modal-form__text:focus + .modal-form__icon {
+.modal-form__text:focus + .modal-form__icon {
   fill: var(--accent-color);
 }
 
@@ -358,7 +358,7 @@ border-bottom: 1px solid #ececec;
   outline: none;
 }
 
-.modal-form__data .modal-form__comment::placeholder {
+.modal-form__comment::placeholder {
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
@@ -459,7 +459,7 @@ border-bottom: 1px solid #ececec;
   display: flex;
 }
 
-.peculiarities-item__description {
+.peculiarities-list__description {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -470,15 +470,15 @@ border-bottom: 1px solid #ececec;
   margin-bottom: 30px;
 }
 
-.peculiarities-list .peculiarities-item {
+.peculiarities-list__item {
   margin-right: 30px;
 } 
 
-.peculiarities-list .peculiarities-item:nth-child(4n) {
+.peculiarities-list__item:nth-child(4n) {
   margin-right: 0px;
 }
 
-.peculiarities-item__title {
+.peculiarities-list__title {
   margin-top: 0px;
   margin-bottom: 10px;
 
@@ -491,7 +491,7 @@ border-bottom: 1px solid #ececec;
   text-transform: uppercase;
 }
 
-.peculiarities-item__text {
+.peculiarities-list__text {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -617,7 +617,7 @@ border-bottom: 1px solid #ececec;
   margin-bottom: 30px;
 }
 
-.social-list .social-list__item:not(:last-child) {
+.social-list__item:not(:last-child) {
   margin-right: 10px;
 }
 
@@ -712,15 +712,15 @@ border-color: var(--accent-color);
   margin-top: 20px;
 }
 
-.footer-nav__list .footer-nav__item {
+.footer-nav__item {
   margin-bottom: 9px;
 }
 
-.footer-nav__list .footer-nav__item:nth-child(3n) {
+.footer-nav__item:nth-child(3n) {
   margin-bottom: 0px;
 }
 
-.footer-nav .footer-nav__map {
+.footer-nav__map {
   color: #fff;
   font-style: normal;
   font-weight: normal;
@@ -733,12 +733,12 @@ border-color: var(--accent-color);
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-nav .footer-nav__map:hover,
-.footer-nav .footer-nav__map:focus {
+.footer-nav__map:hover,
+.footer-nav__map:focus {
   color: var(--accent-color);
 }
 
-.footer-nav .footer-nav__link {
+.footer-nav__link {
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
   font-weight: normal;
@@ -751,8 +751,8 @@ border-color: var(--accent-color);
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-nav .footer-nav__link:hover,
-.footer-nav .footer-nav__link:focus {
+.footer-nav__link:hover,
+.footer-nav__link:focus {
   color: var(--accent-color);
 }
 
@@ -880,11 +880,11 @@ border-color: var(--accent-color);
   margin-bottom: 34px;
 }
 
-.filter-list .filter-list__item{
+.filter-list__item{
   margin-right: 8px;
 }
 
-.filter-list .filter-list__item:nth-child(5n) {
+.filter-list__item:nth-child(5n) {
   margin-right: 0px;
 }
 
@@ -923,6 +923,7 @@ border-color: var(--accent-color);
   height: 1px;
   margin: -1px;
 }
+
 .proposal-list {
   display: flex;
   flex-wrap: wrap;
